@@ -1,9 +1,9 @@
 # Base image
-FROM node:16.13.1-alpine3.15
+FROM node:latest
 
 RUN npm i -g npm@8.6.0
 
-RUN addgroup allusers && adduser -S -G allusers username
+# RUN addgroup allusers && adduser -S -G allusers username
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -24,5 +24,5 @@ RUN npm run build
 
 EXPOSE 3001
 
-USER username
+USER 10014
 CMD [ "node", "dist/main.js" ]
