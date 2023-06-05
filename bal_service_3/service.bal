@@ -1,7 +1,13 @@
+import ballerinax/mysql;
+import ballerinax/mysql.driver as _;
 import ballerina/http;
 
 # A service representing a network-accessible API
 # bound to port `9090`.
+@display {
+        label: "bal_service_3",
+        id: "daa15d46-c1f5-433f-990f-383d85c68dbb"
+}
 service / on new http:Listener(9090) {
 
     # A resource for generating greetings
@@ -10,6 +16,8 @@ service / on new http:Listener(9090) {
     resource function get greeting(string name) returns string|error {
         // Send a response back to the caller.
         if name is "" {
+            mysql:Client mysqlEp = check new ();
+            stream<record {}, error?> queryResponse = mysqlEp->query(sqlQuery = ``);
             return error("name should not be empty!");
         }
         return "Hello, " + name;
