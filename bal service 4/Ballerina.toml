@@ -1,8 +1,0 @@
-[package]
-org = "KajendranAlagaratnam"
-name = "bal_service_4"
-version = "1.0.0"
-distribution = "2201.5.0"
-
-[build-options]
-observabilityIncluded = true
