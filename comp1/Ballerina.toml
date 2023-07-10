@@ -1,6 +1,6 @@
 [package]
 org = "KajendranAlagaratnam"
-name = "newComp1"
+name = "comp1"
 version = "1.0.0"
 distribution = "2201.5.0"
 
