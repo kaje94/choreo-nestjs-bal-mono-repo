@@ -1,10 +1,6 @@
 [package]
 org = "KajendranAlagaratnam"
-<<<<<<<< HEAD:comp1/Ballerina.toml
 name = "comp1"
-========
-name = "component2"
->>>>>>>> 5e55ca607456d734866c5c53a3d1ae93fb75c13c:component2/Ballerina.toml
 version = "1.0.0"
 distribution = "2201.5.0"
 
