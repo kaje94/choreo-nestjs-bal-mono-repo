@@ -1,0 +1,8 @@
+[package]
+org = "KajendranAlagaratnam"
+name = "friday_mono_3_compo1"
+version = "1.0.0"
+distribution = "2201.5.0"
+
+[build-options]
+observabilityIncluded = true
