@@ -6,6 +6,7 @@ import ballerina/http;
 	label: "comp6",
 	id: "comp6-78bb55bd-ff3e-47f8-bc5a-aa0d75cf557c"
 }
+//
 service / on new http:Listener(9090) {
 
     # A resource for generating greetings
