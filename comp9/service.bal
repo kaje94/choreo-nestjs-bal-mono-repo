@@ -4,7 +4,7 @@ import ballerina/http;
 # bound to port `9090`.
 @display {
 	label: "comp9",
-	id: "comp9-861daac0-ba1c-4b5e-906b-6c868094a730"
+	id: "comp9-61b953f1-d4f5-4b79-b094-e3899628b1a7"
 }
 service / on new http:Listener(9090) {
 
