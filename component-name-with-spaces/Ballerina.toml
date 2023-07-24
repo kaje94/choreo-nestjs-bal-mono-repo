@@ -1,8 +1,0 @@
-[package]
-org = "KajendranAlagaratnam"
-name = "component_name_with_spaces"
-version = "1.0.0"
-distribution = "2201.5.0"
-
-[build-options]
-observabilityIncluded = true
