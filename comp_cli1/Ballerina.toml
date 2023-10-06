@@ -1,8 +1,8 @@
 [package]
 org = "KajendranAlagaratnam"
-name = "comp9"
+name = "comp_cli1"
 version = "1.0.0"
-distribution = "2201.7.0"
+distribution = "2201.7.2"
 
 [build-options]
 observabilityIncluded = true
